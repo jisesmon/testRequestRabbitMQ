@@ -48,3 +48,5 @@ docker run -d --hostname rmq --name rabbit-server2  -p 8080:15672 -p 5672:5672 r
 			"read": ".*"
 		},
 </pre>
+# pattern configure s 
+{site}.{module}.{event}
