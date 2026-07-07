@@ -21,7 +21,7 @@ docker run -d --hostname rmq --name rabbit-server2  -p 8080:15672 -p 5672:5672 r
 		{
 			"name": "ali",
 		    "tags": [
-				"monitoring"        --!! -(monitoring) only view data or -(none) that sent and revice to queue 
+				"management"        --!! -(management)+add and update  or  -(monitoring) only view data or -(none) that sent and revice to queue 
 			],
 			"limits": {
 			}
@@ -43,7 +43,7 @@ docker run -d --hostname rmq --name rabbit-server2  -p 8080:15672 -p 5672:5672 r
 		 {
 			"user": "ali",
 			"vhost": "arpango.ir",
-			"configure": "arpango.ir*",  --!!! limit to view and 
+			"configure": "arpango.ir*",  --!!! limit to view and and add and update
 			"write": ".*",
 			"read": ".*"
 		},
