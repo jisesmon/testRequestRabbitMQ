@@ -4,3 +4,10 @@ GET {{testRequestRabbitMQ_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+
+# http://localhost:53909/api/home/index
+# http://localhost:8080/#/users
+# http://localhost:53909/api/home/ping?host=172.17.200.135
+# http://localhost:53909/api/home/ping?host=Google
+
